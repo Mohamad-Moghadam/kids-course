@@ -16,7 +16,7 @@
 nav {
     background-color: white;
     border-radius: 24px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     position: absolute;
@@ -73,4 +73,52 @@ ul {
     color: rgba(255, 255, 255, 1);
     font-family: K2D;
     font-size: 20px;
+}
+
+.right-section {
+    position: relative;
+    font-family: K2D;
+}
+
+.left-section {
+    position: relative;
+    display: flex;
+}
+
+#levels {
+    position: absolute;
+    top: 320px;
+    left: 375px;
+    z-index: 1;
+    border: rgba(255, 255, 255, 1) solid 10px;
+    border-radius: 22px;
+    box-shadow: 0px 25px 25px 0px rgba(69, 44, 88, 0.26);
+}
+
+#coding-example {
+    position: absolute;
+    width: 500px;
+    height: 375px;
+    background-color: rgba(51, 6, 86, 1);
+    border: rgba(118, 85, 143, 1) solid 10px;
+    border-radius: 35px;
+    top: 115px;
+    left: 120px;
+}
+
+.info {
+    position: absolute;
+    top: 115px;
+    left: 751px;
+    width: 569px;
+    letter-spacing: -1px;
+    line-height: 60px;
+}
+
+.info-details {
+    position: absolute;
+    top: 268px;
+    left: 751px;
+    width: 569px;
+    margin-top: 25px;
 }
